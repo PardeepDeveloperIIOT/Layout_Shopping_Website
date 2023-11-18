@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shopping website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!--Shopping Website-->
+    <!--Nav bar-->
+    <div class="container-fluid text-center">
+      <h1 class="hide-heading">Shopping</h1>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <div class="container-fluid p-0 navbar-toggle-btn-modify">
+          <h1 class="active-heading">Shopping</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mynav-modify" id="navbarNav">
+            <ul class="navbar-nav p-1">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">SHOP</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">WHY US</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">TESTIMONIAL</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fa-solid fa-user" href="#"></a
+                ><span>Login</span>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fa-solid fa-bag-shopping" href="#"></a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fa-solid fa-magnifying-glass" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--Nav bar end-->
+    <!--carousel start-->
+    <div class="container-fluid">
+      <div id="carouselExample" class="carousel slide carousel-bg-color">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row carousal-modify-row">
+              <div class="col-sm-6 col-md-6 col-lg-6 carousal-modify-content">
+                <div class="header-content">
+                  <h1>
+                    Welcome to our <br />
+                    Gift Shop
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Commodi impedit ab, fugit, eaque illo voluptates
+                    exercitationem vel velit ex quos corporis dolor quia autem,
+                    facilis quis a cum nesciunt eius?
+                  </p>
+                  <button class="btn btn-danger">Contact Us</button>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6 carousal-modify-img">
+                <img src="./images/slider-img.png" class="d-block" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 carousal-modify-content">
+                <div class="content">
+                  <h1>Welcome to our Gift Shop</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Commodi impedit ab, fugit, eaque illo voluptates
+                    exercitationem vel velit ex quos corporis dolor quia autem,
+                    facilis quis a cum nesciunt eius?
+                  </p>
+                  <button class="btn btn-danger">Contact Us</button>
+                </div>
+              </div>
+              <div class="col-lg-6 carousal-modify-img">
+                <img src="./images/slider-img.png" class="d-block" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 carousal-modify-content">
+                <div class="content">
+                  <h1>Welcome to our Gift Shop</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Commodi impedit ab, fugit, eaque illo voluptates
+                    exercitationem vel velit ex quos corporis dolor quia autem,
+                    facilis quis a cum nesciunt eius?
+                  </p>
+                  <button class="btn btn-danger">Contact Us</button>
+                </div>
+              </div>
+              <div class="col-lg-6 carousal-modify-img">
+                <img src="./images/slider-img.png" class="d-block" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousal-btn-flex">
+          <button
+            class="carousel-control-prev carousel-btn-1 bg-white"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <i class="fa-solid fa-circle-arrow-left"></i>
+          </button>
+          <button
+            class="carousel-control-next carousel-btn-2 bg-white"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--carousel end-->
+    <!-- product-conatiner start -->
+    <div class="container-fluid mt-5">
+      <div class="row mb-4">
+        <div class="col-lg-12 text-center product-conatiner-h1">
+          <h1>LATEST PRODUCTS</h1>
+        </div>
+      </div>
+      <div class="product-container">
+        <div class="row product-container-row">
+          <div
+            class="col-md-12 col-lg-3 text-center product-container-col mb-3"
+          >
+            <div class="new-product">New</div>
+            <img class="img img-fluid" src="./images/p1.png" alt="" />
+            <div class="new-product-name">Ring</div>
+            <div class="new-product-price">Price <span>&#36;200</span></div>
+          </div>
+          <div
+            class="col-md-12 col-lg-3 text-center product-container-col ms-3 mb-3"
+          >
+            <div class="new-product">New</div>
+            <img class="img img-fluid" src="./images/p2.png" alt="" />
+            <div class="new-product-name">Watch</div>
+            <div class="new-product-price">Price <span>&#36;300</span></div>
+          </div>
+          <div
+            class="col-md-12 col-lg-3 text-center product-container-col ms-3 mb-3"
+          >
+            <div class="new-product">New</div>
+            <img class="img img-fluid" src="./images/p3.png" alt="" />
+            <div class="new-product-name">Taddy</div>
+            <div class="new-product-price">Price <span>&#36;110</span></div>
+          </div>
+          <div
+            class="col-md-12 col-lg-3 text-center product-container-col ms-3 mb-3"
+          >
+            <div class="new-product">New</div>
+            <img class="img img-fluid" src="./images/p4.png" alt="" />
+            <div class="new-product-name">Flower</div>
+            <div class="new-product-price">Price <span>&#36;320</span></div>
+          </div>
+          <div class="col-lg-3 text-center product-container-col mb-3">
+            <div class="new-product">New</div>
+            <img class="img img-fluid" src="./images/p5.png" alt="" />
+            <div class="new-product-name">Taddy</div>
+            <div class="new-product-price">Price <span>&#36;230</span></div>
+          </div>
+          <div class="col-lg-3 text-center product-container-col ms-3 mb-3">
+            <div class="new-product">New</div>
+            <img class="img img-fluid" src="./images/p6.png" alt="" />
+            <div class="new-product-name">Flower</div>
+            <div class="new-product-price">Price <span>&#36;400</span></div>
+          </div>
+          <div class="col-lg-3 text-center product-container-col ms-3 mb-3">
+            <div class="new-product">New</div>
+            <img class="img img-fluid" src="./images/p7.png" alt="" />
+            <div class="new-product-name">Watch</div>
+            <div class="new-product-price">Price <span>&#36;100</span></div>
+          </div>
+          <div class="col-lg-3 text-center product-container-col ms-3 mb-3">
+            <div class="new-product">New</div>
+            <img class="img img-fluid" src="./images/p8.png" alt="" />
+            <div class="new-product-name">Ring</div>
+            <div class="new-product-price">Price <span>&#36;120</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="row view-all-product text-center mb-5 mt-3">
+        <div class="col-lg-12">
+          <button class="view-all-product-btn">View All Products</button>
+        </div>
+      </div>
+    </div>
+    <!-- product-conatiner end -->
+    <!-- Buy container start -->
+    <div class="container-fluid p-0">
+      <div class="row by-product-row pt-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 by-product-col-1">
+          <img class="img img-fluid" src="./images/saving-img.png" alt="" />
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 by-product-col-2">
+          <h1>BEST SAVING ON <br />NEW ARRIVALS</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+            quis recusandae nemo iure consequatur vel illum dignissimos atque
+            unde dolorem cupiditate quas architecto distinctio deleniti, ex
+            voluptates, explicabo nobis perferendis?
+          </p>
+          <button class="btn buy-product-btn-1 mb-3">Buy Now</button>
+          <button class="btn buy-product-btn-2 mb-3">See More</button>
+        </div>
+      </div>
+    </div>
+    <!-- Buy container start -->
+    <!--Shop with us start-->
+    <div class="container-fluid mt-5 mb-5">
+      <div class="row mb-5">
+        <div class="col-lg-12 text-center shop-content">
+          <h1>WHY SHOP WITH US</h1>
+        </div>
+      </div>
+      <div class="product-container">
+        <div class="row shop-content-row">
+          <div
+            class="col-sm-12 col-md-4 col-lg-4 text-center shop-content-col-1"
+          >
+            <i class="fa-solid fa-truck-moving"></i>
+            <h5>Fast Delivery</h5>
+            <p>Variation of passages of Lorem Ipsum available</p>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 col-lg-4 text-center shop-content-col-1"
+          >
+            <i class="fa-solid fa-cart-arrow-down"></i>
+            <h5>Fast Delivery</h5>
+            <p>Variation of passages of Lorem Ipsum available</p>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 col-lg-4 text-center shop-content-col-1"
+          >
+            <i class="fa-solid fa-circle-check"></i>
+            <h5>Fast Delivery</h5>
+            <p>Variation of passages of Lorem Ipsum available</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Shop with us end-->
+    <!--Contact us start-->
+    <div class="container-fluid mb-5">
+      <div class="contact-container-main">
+        <div class="row mb-2 contact-row-1">
+          <div class="col-lg-12 text-center contact-us">
+            <h1>CONTACT US</h1>
+          </div>
+        </div>
+        <div class="row contact-row-2">
+          <div class="col-lg-6 contact-col-2">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109777.95084154207!2d76.77984934687063!3d30.702626543684755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f936ed6a2b757%3A0x898668d7061b40f0!2sPanchkula%2C%20Haryana!5e0!3m2!1sen!2sin!4v1691683118221!5m2!1sen!2sin"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-lg-6">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputText" class="form-label"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputText1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail" class="form-label"
+                  >Email Id</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputText" class="form-label"
+                  >Contact Number</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputText1"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Contact us start-->
+    <!--footer start-->
+    <div class="container-fluid">
+      <div class="footer bg-black m-0">
+        <div class="row footer-row-1">
+          <div class="col-lg-12 footer-col-1 mt-4">
+            <ul class="footer-myflex">
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-youtube"></i></li>
+              <li><i class="fa-solid fa-envelope"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row footer-row-2">
+          <hr style="color: white" />
+          <p class="footer-copywrite">
+            © 2023-2024 Pardeep kumar Responsive website
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--footer end-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
